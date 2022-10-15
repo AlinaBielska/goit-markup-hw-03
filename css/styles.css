@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+    margin: 0;
+    width: 1600px;
+}
+:root {
+    --main-color: #212121;
+    --brand-color: #2196F3;
+    --background-gray: #2f303a;
+    --background-bright: #F5F4FA;
+    --extra-gray: #757575;
+    --main-white: #FFFFFF;
+    --total-black: #000000;
+    --color-contact: rgba(255, 255, 255, 0.6);
+}
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.navigation-inner {
+    display: flex;
+}
+.list-style {
+    list-style: none;
+}
+.navigation {
+   font-size: 14px; 
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--main-color);
+   text-decoration: none;
+}
+.navigation:hover, .navigation:focus {
+    color: var(--brand-color);
+}
+.top-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--extra-gray);
+    text-decoration: none;
+}
+.top-contact:hover, .top-contact:focus, .lower-contact:hover, .lower-contact:focus {
+    color: var(--brand-color);
+}
+.color-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--total-black);
+    text-decoration: none;
+}
+.color-logo-web {
+    color: var(--brand-color)
+}
+.logo-white {
+    color: var(--main-white);
+}
+.background-styling {
+    background-color: var(--background-gray);
+}
+.main-slogan {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    text-transform: uppercase;
+    color: var(--main-white);
+}
+.lorem-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--extra-gray);
+}
+.lorem-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+.section-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-color {
+    background-color: var(--background-bright);
+}
+.portret {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--extra-gray);
+    background-color: var(--main-white);
+}
+.portret-name {
+    font-weight: 500;
+    color: var(--main-color);
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--extra-gray);
+}
+.order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-white);
+    background-color: var(--brand-color);
+    cursor: pointer;
+}
+.services {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-bright);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.services:hover, .services:focus {
+    color: var(--main-white);
+    background-color: var(--brand-color);
+}
+.lower-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-contact);
+    cursor: pointer;
+}
+.lower-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
+}
+.top-contact.phone {
+    margin-right: 227px;
+}
+.top-contact.address {
+    margin-right: 50px;
+}
+a.navigation {
+    margin: 0 15px;
+}
+.navigation:first-child {
+    margin-left: 93px;
+}

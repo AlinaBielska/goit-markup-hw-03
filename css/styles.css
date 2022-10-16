@@ -3,6 +3,7 @@ body {
     color: var(--main-color);
     margin: 0;
     width: 1600px;
+    box-sizing: border-box;
 }
 :root {
     --main-color: #212121;
@@ -16,11 +17,13 @@ body {
     --border-nav: #ECECEC;
 }
 .container {
-    box-sizing: border-box;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.section {
+    padding: 94px 0;
 }
 .navigation-wrapper {
     display: flex;
@@ -87,6 +90,14 @@ body {
     padding-bottom: 60px;
     padding-top: 60px;
 }
+.background-styling.up {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    padding: 200px 452px;
+    gap: 30px;
+    align-items: center;
+}
 .main-slogan {
     font-weight: 900;
     font-size: 44px;
@@ -151,12 +162,15 @@ body {
     font-size: 16px;
     line-height: 1.88;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-white);
     background-color: var(--brand-color);
     cursor: pointer;
+    width: 200px;
+    height: 50px;
 }
 .services {
     font-family: inherit;
@@ -206,4 +220,8 @@ body {
 }
 .container.down {
     gap: 20px;
+}
+.section.lorem {
+    display: flex;
+    gap: 30px;
 }

@@ -13,6 +13,7 @@ body {
     --main-white: #FFFFFF;
     --total-black: #000000;
     --color-contact: rgba(255, 255, 255, 0.6);
+    --border-nav: #ECECEC;
 }
 .container {
     box-sizing: border-box;
@@ -30,6 +31,12 @@ body {
 
 .navigation-inner {
     display: flex;
+    justify-content: space-between;
+    padding: 0;
+    gap: 46px;
+}
+.logo-nav {
+    margin-left: 93px;
 }
 .list-style {
     list-style: none;
@@ -73,6 +80,12 @@ body {
 }
 .background-styling {
     background-color: var(--background-gray);
+}
+.background-styling.down {
+    display: flex;
+    height: 252px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 .main-slogan {
     font-weight: 900;
@@ -177,14 +190,20 @@ body {
     color: var(--main-white);
 }
 .top-contact.phone {
-    margin-right: 227px;
+    margin-right: 27px;
 }
 .top-contact.address {
     margin-right: 50px;
 }
-a.navigation {
-    margin: 0 15px;
+.portfolio-nav {
+    border-bottom: 1px solid var(--border-nav);
 }
-.navigation:first-child {
-    margin-left: 93px;
+.list-style.down {
+    display: flex;
+    padding-left: 0;
+    flex-direction: column;
+    gap: 9px;
+}
+.container.down {
+    gap: 20px;
 }

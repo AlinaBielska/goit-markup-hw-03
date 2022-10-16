@@ -16,7 +16,7 @@ body {
     --color-contact: rgba(255, 255, 255, 0.6);
     --border-nav: #ECECEC;
 }
-figure {
+.reset-margin {
     margin: 0;
 }
 h4 {

@@ -282,3 +282,11 @@ h1 {
 .no-gap {
     display: block;
 }
+.section-name.first {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.section-name.second {
+    margin-top: 0;
+    margin-bottom: 50px;
+}

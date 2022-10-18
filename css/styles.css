@@ -45,6 +45,8 @@ h1 {
     justify-content: space-between;
     padding: 0;
     gap: 46px;
+}
+.logo-nav {
     margin-left: 93px;
 }
 .list-style {
@@ -156,8 +158,11 @@ h1 {
 .portret-name {
     font-weight: 500;
     color: var(--main-color);
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.profession {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .portfolio-title {
     font-weight: 700;
@@ -165,6 +170,7 @@ h1 {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
+    padding-bottom: 4px;
 }
 .portfolio-text {
     font-size: 16px;
